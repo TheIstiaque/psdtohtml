@@ -1,0 +1,155 @@
+/* ==================
+Tablet Layout CSS
+===================== */
+@media only screen and (min-width:200px) and (max-width:991px) {
+
+.social_area {
+    max-width: 460px;
+    padding-top:9px;
+}
+.inner_header_area {
+    padding-top: 20px;
+}
+
+.inner_menu_area {
+    background: none;
+    min-height: auto;
+}
+
+.inner_menu_area::after {
+    display: none;
+}
+
+.mean-container .mean-nav {
+    margin-top: 0px;
+    width:80%;
+}
+
+#slider_area {
+    margin-top: 0;
+}
+
+.inner_hero h2 {
+	font-size: 50px;
+}
+#work_area {
+	padding: 10px 0;
+}
+
+.child_service_area .service_text h3 {
+	font-size: 16px;
+	margin-left: 72px;
+}
+.child_service_area .service_text p {
+    margin-left:72px;
+}
+
+.child_area h2 {
+	font-size: 24px;
+}
+
+.child_footer input[type="submit"] {
+	width: 94px;
+}
+.about_area img {
+	padding: 0px;
+}
+.child_testimonial h3 {
+	margin: 0px;
+}
+
+}
+
+
+/* ==================
+Mobile Layout CSS
+===================== */
+@media only screen and (min-width:200px) and (max-width:480px) {
+.mini_menu {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+.mini_menu ul,.social_area ul{
+        text-align: center;
+        padding: 0;
+    }
+.logo_area img {
+        max-width: 73%;
+    }
+.mini_menu ul li {
+        margin-right: 14px;
+    }
+.mini_menu ul li::after {
+    width: 0.7px;
+    right: -20px;
+    margin-right: 11px;
+}
+.search_area,.logo_area {
+    width: 245px;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.social_area ul li {
+    margin: 0 4px;
+}
+.slider_caption p {
+	font-size: 13.5px;
+	margin: 0 11px;
+	line-height: 1.2em;
+}
+.slider_caption h1 {
+	font-size: 28px;
+}
+.inner_hero h2 {
+	font-size: 27px;
+	text-align: center;
+}
+.inner_hero p {
+	text-align: center;
+}
+.inner_hero,#footer_area {
+	padding-bottom: 20px;
+}
+#work_area {
+	padding: 15px 0;
+}
+.child_area h2 {
+	font-size: 32px;
+	text-align: center;
+}
+.child_area {
+	width: 96%;
+	margin: 0 2% 15px;
+}
+.about_area img {
+    margin: 0 auto;
+}
+.child_footer {
+	width: 96%;
+}
+.left_copyright {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.innner_copyright_area p {
+	font-size: 14px;
+}
+.right_copyright {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
